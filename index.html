@@ -1,54 +1,95 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" >
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <title>Alexa Klein</title>
-  <link rel="stylesheet" type="text/css" href="normalize.css">
-  <link rel="stylesheet" type="test/css" href="portfolio.css">
 </head>
-<body>
-  <div class="container">
-    <div class="alexa box">
-      <h1><a href="about.html">Alexa Klein</a></h1>
-      <div class="fun fact">
-        <p>I would love to connect about
-        <br>
-        <span class="rotate-words">
-          <span><strong>web development.</strong></span>
-          <span><strong>business.</strong></span>
-          <span><strong>coffee.</strong></span>
-          <span><strong>travel.</strong></span>
-          <span><strong>psychology.</strong></span>
-          <span><strong>outdoor adventures.</strong></span>
-          <span><strong>anything!</strong></span>
-        </span>
-        </p>
+  <body>
+    <nav id="top-menu-nav" class="navbar navbar-right navbar-fixed-top">
+      <a href="#" id='home'>home</a>
+      <div class="container">
+        <ul id="nav-bar">
+          <li id="nav"></li>
+          <li id='nav-about'><a href='#about'>about alexa</a></li>
+          <li id="nav-work"><a href="#work">my work</a></li>
+          <li id="nav-contact"><a href="#contact">get in touch</a></li>
+        </div>
+      </nav>
+    <div id='content'>
+      <div id='animation'>
+        <div class="alexa box">
+          <h1>Alexa Klein</h1>
+              <span></span>
+              <script>
+              var descriptions=["full-stack web developer", "community connector", "health enthusiast", "people person", "team player", "powerful leader", "effective communicator"]
+              setInterval(function(){
+                $("span").fadeOut(function(){
+                  var descriptions= descriptions[Math.floor(Math.random()*descriptions.length)]
+                  $("span").html(description).fadeIn()
+                })
+              },3000)
+              </script>
+            </div>
+          </div>
+        </div>
+      <img id="bigimage" alt="" src="" />
+      <div class='container' id='web'>
+        <div class='summary'>
+          <p>
+            I am a graduate of the
+            <a href='https://generalassemb.ly/education/web-development-immersive' target='_blank'>Web Development Immersive</a> course at General Assembly in Washington, DC. General Assembly introduced me to great variety of languages and progam, and it is just the beginning of my journey!
+          </p>
+          <div class='languages'>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>jQuery</li>
+              <li>AJAX</li>
+              <li>Ruby</li>
+              <li>Ruby on Rails</li>
+              <li>PostgreSQL</li>
+              <li>SASS</li>
+              <li>GitHub</li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="portfolio">
-      <h2><a href="work.html">My Work</a></h2>
-    </div>
-    <div class="contact">
-      <h2>Get in Touch</h2>
-      <div class="social">
-      <a href="http://github.com/aklein916">
-        <img id="github" class="icon" src="images/github.png?v=1.0" alt="github">
-      </a>
-      <a href="email">
-        <img id="email" class="icon" src="images/email.png?v=1.0" alt="email">
-      </a>
-      <a href="linkedin">
-        <img id="linkedin" class="icon" src="images/linkedin.png?v=1.0" alt="linkedin">
-      </a>
-      <a href="resume">
-        <img id="resume" class="icon" src="images/resume.png?v=1.0" alt="resume">
-      </a>
-    </div>
-  </div>
-    <div class="blog">
-      <h2>blog</h2>
-    </div>
-  </div>
-</body>
+      <div class='container' id='contact'>
+        <div class='section'>
+          <h2>
+            Contact Me
+          </h2>
+        </div>
+        <div class='summary'>
+          <ul>
+            <li>
+              <a href="http://github.com/aklein916">
+                <img id="github" class="icon" src="images/githublogo.png" alt="github"> </a>
+              |
+            </li>
+            <li>
+              <a href="http://linkedin.com/in/alexaklein">
+                <img id="linkedin" class="icon" src="images/linkedinlogo.png" alt="linkedin">
+              </a>
+              |
+            </li>
+            <li>
+              <a href="mailto:lexi.klein1@gmail.com">
+                  <img id="email" class="icon" src="images/gmaillogo.jpeg" alt="email">
+                </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class='container'>
+        <footer>
+          Created by Alexa Klein
+        </footer>
+      </div>
+  </body>
+</head>
 </html>
