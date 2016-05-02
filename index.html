@@ -3,46 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" >
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" >
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<link rel="stylesheet" href="styles.css">
+
   <title>Alexa Klein</title>
 </head>
   <body>
-    <nav id="top-menu-nav" class="navbar navbar-right navbar-fixed-top">
-      <a href="#" id='home'>home</a>
-      <div class="container">
-        <ul id="nav-bar">
-          <li id="nav"></li>
-          <li id='nav-about'><a href='#about'>about alexa</a></li>
-          <li id="nav-work"><a href="#work">my work</a></li>
-          <li id="nav-contact"><a href="#contact">get in touch</a></li>
-        </div>
-      </nav>
-    <div id='content'>
-      <div id='animation'>
-        <div class="alexa box">
-          <h1>Alexa Klein</h1>
-              <span></span>
-              <script>
-              var descriptions=["full-stack web developer", "community connector", "health enthusiast", "people person", "team player", "powerful leader", "effective communicator"]
-              setInterval(function(){
-                $("span").fadeOut(function(){
-                  var descriptions= descriptions[Math.floor(Math.random()*descriptions.length)]
-                  $("span").html(description).fadeIn()
-                })
-              },3000)
-              </script>
+    <div id="nav">
+      <ul>
+        <li>
+          <a href="#about">about me</a>
+        </li>
+        <li>
+          <a href="#gallery">gallery</a>
+        </li>
+        <li>
+          <a href="#contact">contact me</a>
+        </li>
+      </ul>
+    </div>
+    <div class="alexa-box">
+      <h1>Alexa Klein</h1>
+      <div class="brandstatement">
+        <h3>
+          I am a passionate, life-long learner who is solution oriented and loves connecting with people, building relationships and impacting the communities around me.
+        </h3>
+      </div>
+    </div>
+          <!-- <span></span>
+          <script>
+          var descriptions=["full-stack web developer", "community connector", "health enthusiast", "people person", "team player", "powerful leader", "effective communicator"]
+          setInterval(function(){
+            $("span").fadeOut(function(){
+              var descriptions= descriptions[Math.floor(Math.random()*descriptions.length)]
+              $("span").html(description).fadeIn()
+            })
+          },3000)
+          </script>
             </div>
           </div>
-        </div>
-      <img id="bigimage" alt="" src="" />
-      <div class='container' id='web'>
-        <div class='summary'>
-          <p>
+        </div> -->
+      <!-- <img id="bigimage" alt="" src="" />
+      <div class='container' id='web'> -->
+        <div class='aboutme'>
+          <p id='about'>
             I am a graduate of the
-            <a href='https://generalassemb.ly/education/web-development-immersive' target='_blank'>Web Development Immersive</a> course at General Assembly in Washington, DC. General Assembly introduced me to great variety of languages and progam, and it is just the beginning of my journey!
+            <a href='https://generalassemb.ly/education/web-development-immersive' target='_blank'>Web Development Immersive</a> course at General Assembly in Washington, DC. General Assembly introduced me to great variety of languages and progams, and it is just the beginning of my journey!
+          </br>
+          Born and raised in Maryland, right outside of Washington, DC.
+          </br>
+          One of my favorite hobbies growing up, and throughout college, was sewing. I even studied fashion design in college. Post-college, I missed the creativity that sewing had provided me and how I could zone-out and focus on sewing and designing for hours at a time. The first time I tried coding, it reminded me of sewing. There is so much creativiity...
           </p>
-          <div class='languages'>
+          <!-- <div class='languages'>
             <ul>
               <li>HTML</li>
               <li>CSS</li>
@@ -55,9 +68,8 @@
               <li>SASS</li>
               <li>GitHub</li>
             </ul>
-          </div>
+          </div> -->
         </div>
-      </div>
       <div class='container' id='contact'>
         <div class='section'>
           <h2>

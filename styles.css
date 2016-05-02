@@ -1,0 +1,15 @@
+#nav-bar{
+  display: inline-flex;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.container a{
+  padding: 15px;
+}
+
+.alexa-box{
+  padding: 15px;
+  text-align: center;
+  text-transform: lowercase;
+}
