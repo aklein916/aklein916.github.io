@@ -26,6 +26,7 @@
   text-transform: lowercase;
   color: navy;
   font-family: sans-serif;
+  padding-top: 40px;
 }
 
 .brandstatement {
@@ -42,9 +43,19 @@
   color: black;
 }
 
-li {
+ul {
   list-style: none;
+  display: inline-block;
 }
-ul img{
+.contact{
   display: inline;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 100%;
+  color: navy;
+  background-color: grey;
+}
+
+.logos{
+  
 }
