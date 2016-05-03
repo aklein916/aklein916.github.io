@@ -4,13 +4,14 @@
   background-color: navy;
   position: fixed;
   font-size: 20px;
-  height: 50px;
+  height: 60px;
   width: 100%;
   opacity: 0.6;
   padding: 15px;
+  margin-bottom: 30px;
 }
 
-#nav li, #nav a {
+#nav li, #nav a{
   display: inline-flex;
   padding-right: 15px;
   color: white;
@@ -18,25 +19,39 @@
 
 .alexa-box{
   padding: 20px;
+  padding-top: 40px;
   text-transform: lowercase;
   color: navy;
   font-family: sans-serif;
-  padding-top: 40px;
   font-size: 50px;
   text-align: left;
+  position: fixed;
 }
 .brandstatement {
   text-transform: none;
-  text-align: left;
-}
-
-.aboutme{
   text-align: center;
+  padding: 15px;
+  font-family: sans-serif;
+  color: navy;
+  background-color: lightgrey;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 
-#about a{
+.about p{
+  text-align: center;
+  padding: 8px;
+  font-family: sans-serif;
+  font-size: 18px;
+  color: navy;
+  background-color: lightgrey;
+}
+
+#aboutlexi a{
   text-decoration: none;
-  color: black;
+  color: navy;
 }
 
 ul {
@@ -57,7 +72,7 @@ ul {
 }
 .container {
   background-position: center;
-  background-color: grey;
+  background-color: lightgrey;
   background-size: contain;
   color: white;
   width: 100%;
@@ -67,7 +82,6 @@ ul {
 .top-photo{
   background-image: url("https://scontent.fphl1-1.fna.fbcdn.net/v/t1.0-9/13001327_10200349646523578_4027351287086075701_n.jpg?oh=b5952d4e268818be84752bb06065597d&oe=57AFFE82");
   margin: auto;
-  margin-top: 30px;
   height: 700px;
   width: 80%;
   background-size: cover;
@@ -80,9 +94,21 @@ ul {
   background-image: url("https://media.licdn.com/media//p/7/005/09c/15e/34492ba.jpg");
   margin: auto;
   margin-top: 30px;
-  height: 800px;
+  height: 810px;
+  max-width: 1200px;
   width: 100%;
   background-size: cover;
   display: flex;
   justify-content: center;
+}
+
+#alexaklein{
+  padding-top: 15px;
+}
+
+.contact h3{
+  text-align: center;
+  color: navy;
+  font-size: 20px;
+  font-weight: normal;
 }
