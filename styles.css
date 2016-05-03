@@ -1,7 +1,19 @@
 #nav{
-  display: inline-flex;
   text-decoration: none;
   list-style-type: none;
+  background-color: navy;
+  position: fixed;
+  font-size: 20px;
+  height: 50px;
+  width: 100%;
+  opacity: 0.6;
+  padding: 15px;
+}
+
+#nav li, #nav a {
+  display: inline-flex;
+  padding-right: 15px;
+  color: white;
 }
 
 .container a{
@@ -9,9 +21,16 @@
 }
 
 .alexa-box{
-  padding: 15px;
+  padding: 20px;
   text-align: center;
   text-transform: lowercase;
+  color: navy;
+  font-family: sans-serif;
+}
+
+.brandstatement {
+  text-transform: none;
+  text-align: left;
 }
 
 .aboutme{
@@ -26,6 +45,6 @@
 li {
   list-style: none;
 }
-.icon{
-  image-rendering: auto;
+ul img{
+  display: inline;
 }
