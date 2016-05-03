@@ -16,10 +16,6 @@
   color: white;
 }
 
-.container a{
-  padding: 15px;
-}
-
 .alexa-box{
   padding: 20px;
   text-align: center;
@@ -47,15 +43,23 @@ ul {
   list-style: none;
   display: inline-block;
 }
-.contact{
+
+.logos li{
   display: inline;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  width: 100%;
-  color: navy;
-  background-color: grey;
+  justify-content: center;
+  align-items: center;
 }
 
-.logos{
-  
+.icon {
+  margin: 20px;
+  height: 80px;
+  width: 130px;
+}
+.container {
+  background-position: center;
+  background-color: grey;
+  background-size: contain;
+  color: white;
+  width: 100%;
+  padding-bottom: 0px;
 }
