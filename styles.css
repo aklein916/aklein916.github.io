@@ -42,11 +42,16 @@
 
 .about p{
   text-align: center;
-  padding: 8px;
+  padding: 15px;
   font-family: sans-serif;
   font-size: 18px;
   color: navy;
   background-color: lightgrey;
+  margin-top: 50px;
+  height: 600px;
+  width: 50%;
+  float: left;
+  text-align: center;
 }
 
 #aboutlexi a{
@@ -91,12 +96,12 @@ ul {
 }
 
 .yogaphoto{
-  background-image: url("https://media.licdn.com/media//p/7/005/09c/15e/34492ba.jpg");
+  background-image: url("https://scontent.fphl1-1.fna.fbcdn.net/v/t1.0-9/734169_3086157472714_1491420326_n.jpg?oh=1891fbe9fd4f2711523adebe99acaf5b&oe=57A0A85C");
   margin: auto;
-  margin-top: 30px;
-  height: 810px;
-  max-width: 1200px;
-  width: 100%;
+  margin-top: 50px;
+  height: 600px;
+  width: 50%;
+  float: right;
   background-size: cover;
   display: flex;
   justify-content: center;
