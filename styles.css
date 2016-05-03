@@ -48,7 +48,7 @@
   color: navy;
   background-color: lightgrey;
   margin-top: 50px;
-  height: 600px;
+  height: 550px;
   width: 50%;
   float: left;
   text-align: center;
@@ -95,11 +95,11 @@ ul {
 
 }
 
-.yogaphoto{
+.smilephoto{
   background-image: url("https://scontent.fphl1-1.fna.fbcdn.net/v/t1.0-9/734169_3086157472714_1491420326_n.jpg?oh=1891fbe9fd4f2711523adebe99acaf5b&oe=57A0A85C");
   margin: auto;
   margin-top: 50px;
-  height: 600px;
+  height: 550px;
   width: 50%;
   float: right;
   background-size: cover;
