@@ -122,7 +122,11 @@ text-align: center;
 #alexaklein{
   padding-top: 15px;
 }
-
+#alexatitle {
+  text-align: center;
+  color: navy;
+  font-family: 'Give You Glory';
+}
 .contact h3{
   text-align: center;
   color: navy;
