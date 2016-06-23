@@ -1,4 +1,4 @@
-#nav{
+.nav-wrapper{
   text-decoration: none;
   list-style-type: none;
   background-color: navy;
@@ -11,7 +11,7 @@
   margin-bottom: 30px;
 }
 
-#nav li, #nav a{
+#navbar li, #navbar a{
   display: inline-flex;
   padding-right: 15px;
   color: white;
@@ -35,7 +35,6 @@
   padding: 15px;
   font-family: sans-serif;
   color: navy;
-  background-color: lightgrey;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -97,15 +96,7 @@ ul {
   justify-content: center;
 
 }*/
-/*#headshot {
-  display: flex;
-  border-radius: 20%;
-  margin-left: 25%;
-  margin-right: 25%;
-}
-.smallphoto {
-text-align: center;
-}*/
+
 .smilephoto{
   background-image: url("https://media.licdn.com/media/AAEAAQAAAAAAAAhAAAAAJDMwMTI5ZGEwLWVlNWQtNDRlMi04ZWVhLWQ4M2UzN2IxY2U1Yw.jpg");
   margin: auto;
