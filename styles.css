@@ -19,13 +19,15 @@
 
 .alexa-box{
   padding: 20px;
-  padding-top: 40px;
+  padding-top: 60px;
   text-transform: lowercase;
   color: navy;
   font-family: 'Give You Glory', cursive;
-  font-size: 50px;
-  text-align: left;
-  position: fixed;
+  text-align: center;
+}
+
+#alexaklein{
+  font-size: 150px;
 }
 .brandstatement {
   text-transform: none;
@@ -95,9 +97,17 @@ ul {
   justify-content: center;
 
 }*/
-
+#headshot {
+  display: flex;
+  border-radius: 20%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.smallphoto {
+text-align: center;
+}
 .smilephoto{
-  background-image: url("https://scontent.fphl1-1.fna.fbcdn.net/v/t1.0-9/734169_3086157472714_1491420326_n.jpg?oh=1891fbe9fd4f2711523adebe99acaf5b&oe=57A0A85C");
+  background-image: url("https://media.licdn.com/media/AAEAAQAAAAAAAAhAAAAAJDMwMTI5ZGEwLWVlNWQtNDRlMi04ZWVhLWQ4M2UzN2IxY2U1Yw.jpg");
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
