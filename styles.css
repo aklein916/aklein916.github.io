@@ -9,11 +9,11 @@
   opacity: 0.6;
   padding: 15px;
   margin-bottom: 30px;
+  display: inline-flex;
 }
 
-#navbar li, #navbar a{
-  display: inline-flex;
-  padding-right: 15px;
+.nav-item {
+  padding: 15px;
   color: white;
 }
 
@@ -25,11 +25,14 @@
   font-family: 'Give You Glory', cursive;
   text-align: center;
 }
-
+#navbar{
+  background-color: darkgrey;
+  padding-bottom: 18px;
+}
 #alexaklein{
   font-size: 150px;
 }
-.brandstatement {
+#brandstatement {
   text-transform: none;
   text-align: center;
   padding: 15px;
