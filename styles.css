@@ -97,7 +97,7 @@ ul {
   justify-content: center;
 
 }*/
-#headshot {
+/*#headshot {
   display: flex;
   border-radius: 20%;
   margin-left: 25%;
@@ -105,7 +105,7 @@ ul {
 }
 .smallphoto {
 text-align: center;
-}
+}*/
 .smilephoto{
   background-image: url("https://media.licdn.com/media/AAEAAQAAAAAAAAhAAAAAJDMwMTI5ZGEwLWVlNWQtNDRlMi04ZWVhLWQ4M2UzN2IxY2U1Yw.jpg");
   margin: auto;
@@ -118,13 +118,17 @@ text-align: center;
   display: flex;
   justify-content: center;
 }
-
+.background {
+  background-color: darkgrey;
+  background-size: cover;
+  padding-bottom: 25px;
+}
 #alexaklein{
   padding-top: 15px;
 }
 #alexatitle {
   text-align: center;
-  color: navy;
+  color: maroon;
   font-family: 'Give You Glory';
 }
 .contact h3{
