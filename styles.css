@@ -12,13 +12,16 @@
   display: inline-flex;
 }
 
+.navbar {
+  width: 100%
+}
 .nav-item {
   padding: 15px;
   color: white;
+
 }
 
 .alexa-box{
-  padding: 20px;
   padding-top: 60px;
   text-transform: lowercase;
   color: navy;
@@ -35,33 +38,38 @@
 #brandstatement {
   text-transform: none;
   text-align: center;
-  padding: 15px;
+  padding: 80px;
   font-family: sans-serif;
-  color: navy;
+  color: white;
   width: 100%;
   display: flex;
   justify-content: center;
   margin: auto;
+  background-color: maroon;
+}
+
+.brandstatement{
+  width: 70%;
 }
 
 .about p{
   text-align: center;
-  padding: 15px;
   font-family: sans-serif;
   font-size: 18px;
   color: navy;
   background-color: lightgrey;
   margin-top: 50px;
-  margin-bottom: 50px;
   height: 550px;
-  width: 50%;
+  width: 30%;
   float: left;
   text-align: center;
 }
 
-#aboutlexi a{
+#aboutlexi {
   text-decoration: none;
   color: navy;
+  padding: 20px;
+  padding-top: 40px;
 }
 
 ul {
@@ -101,16 +109,15 @@ ul {
 }*/
 
 .smilephoto{
-  background-image: url("https://media.licdn.com/media/AAEAAQAAAAAAAAhAAAAAJDMwMTI5ZGEwLWVlNWQtNDRlMi04ZWVhLWQ4M2UzN2IxY2U1Yw.jpg");
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
-  height: 550px;
-  width: 50%;
+  border-radius: 50%;
+  
   float: right;
   background-size: cover;
-  display: flex;
-  justify-content: center;
+  display:inline-flex;
+
 }
 .background {
   background-color: darkgrey;
@@ -119,11 +126,13 @@ ul {
 }
 #alexaklein{
   padding-top: 15px;
+  padding-bottom: 0;
 }
 #alexatitle {
   text-align: center;
   color: maroon;
   font-family: 'Give You Glory';
+  padding-top: 0px;
 }
 .contact h3{
   text-align: center;
