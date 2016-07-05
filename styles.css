@@ -139,9 +139,9 @@ ul {
 }
 .projectdescription{
   text-align: center;
-  padding: 8px;
+  padding-top: 100px;
+  padding-bottom: 20px;
   font-size: 30px;
-  margin-top: 10px;
   color: teal;
   font-family: 'Give You Glory';
 }
