@@ -4,21 +4,22 @@
   background-color: navy;
   position: fixed;
   font-size: 20px;
+  padding: 40px;
   height: 60px;
   width: 100%;
   opacity: 0.6;
-  padding: 15px;
-  margin-bottom: 30px;
   display: inline-flex;
 }
 
 .navbar {
-  width: 100%
+  width: 100%;
+}
+.home{
+  background-color: darkgrey;
 }
 .nav-item {
   padding: 15px;
   color: white;
-
 }
 
 .alexa-box{
@@ -36,10 +37,9 @@
   font-size: 150px;
 }
 #brandstatement {
-  text-transform: none;
   text-align: center;
   padding: 80px;
-  font-family: sans-serif;
+  font-family: 'neucha', sans-serif;
   color: white;
   width: 100%;
   display: flex;
@@ -50,31 +50,28 @@
 
 .brandstatement{
   width: 70%;
+  line-height: 1.5;
+  font-size: 28px;
 }
 
-.about p{
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 18px;
-  color: navy;
-  background-color: lightgrey;
-  margin-top: 50px;
-  height: 550px;
-  width: 30%;
-  float: left;
-  text-align: center;
-}
 
 #aboutlexi {
   text-decoration: none;
   color: navy;
-  padding: 20px;
+  padding: 40px;
+  margin-right: 10px;
   padding-top: 40px;
+  font-family: 'neucha', sans-serif;
+  font-size: 22px;
+  line-height: 1.5;
+
 }
 
 ul {
   list-style: none;
   display: inline-block;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .logos li{
@@ -133,6 +130,7 @@ ul {
   color: maroon;
   font-family: 'Give You Glory';
   padding-top: 0px;
+  padding-bottom: 100px;
 }
 .contact h3{
   text-align: center;
