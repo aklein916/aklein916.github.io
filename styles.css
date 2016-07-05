@@ -54,14 +54,18 @@
 #aboutlexi {
   text-decoration: none;
   color: navy;
-  padding: 80px;
-  margin-right: 40px;
-  padding-top: 40px;
+  padding: 60px;
+  padding-top: 100px;
   font-family: 'neucha', sans-serif;
   font-size: 22px;
   line-height: 1.5;
-
 }
+
+.GA:visited, .GA:hover {
+  text-decoration: none;
+  color: navy;
+}
+
 
 ul {
   list-style: none;
@@ -106,7 +110,9 @@ ul {
   float: right;
   background-size: cover;
   display:inline-flex;
-
+  border-color: navy;
+  border-width: 2px;
+  border-style: solid;
 }
 .background {
   background-color: darkgrey;
