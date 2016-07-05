@@ -1,9 +1,10 @@
 .nav-wrapper{
   text-decoration: none;
   list-style-type: none;
-  background-color: navy;
+  background-color: teal;
   position: fixed;
-  font-size: 20px;
+  font-size: 25px;
+  font-family: 'neucha', sans-serif;
   padding: 40px;
   height: 40px;
   width: 100%;
@@ -16,7 +17,7 @@
   background-size: contain;
 }
 
-.nav-item {
+.nav-item, .nav-item:hover {
   padding: 15px;
   color: white;
 }
@@ -24,7 +25,7 @@
 .alexa-box{
   padding-top: 60px;
   text-transform: lowercase;
-  color: navy;
+  color: teal;
   font-family: 'Give You Glory', cursive;
   text-align: center;
 }
@@ -53,7 +54,7 @@
 
 #aboutlexi {
   text-decoration: none;
-  color: navy;
+  color: teal;
   padding: 60px;
   padding-top: 100px;
   font-family: 'neucha', sans-serif;
@@ -63,7 +64,7 @@
 
 .GA:visited, .GA:hover {
   text-decoration: none;
-  color: navy;
+  color: teal;
 }
 
 
@@ -110,7 +111,7 @@ ul {
   float: right;
   background-size: cover;
   display:inline-flex;
-  border-color: navy;
+  border-color: teal;
   border-width: 2px;
   border-style: solid;
 }
@@ -132,7 +133,7 @@ ul {
 }
 .contact h3{
   text-align: center;
-  color: navy;
+  color: teal;
   font-size: 20px;
   font-weight: normal;
 }
@@ -141,7 +142,7 @@ ul {
   padding: 8px;
   font-size: 30px;
   margin-top: 10px;
-  color: navy;
+  color: teal;
   font-family: 'Give You Glory';
 }
 
@@ -149,7 +150,7 @@ ul {
   margin-left: 25%;
   margin-right: 25%;
   outline-style: solid;
-  outline-color: navy;
+  outline-color: teal;
   outline-width: thin;
   margin-top: 30px;
   margin-bottom: 30px;
