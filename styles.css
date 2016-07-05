@@ -5,18 +5,15 @@
   position: fixed;
   font-size: 20px;
   padding: 40px;
-  height: 60px;
+  height: 50px;
   width: 100%;
   opacity: 0.6;
   display: inline-flex;
 }
 
-.navbar {
-  width: 100%;
-}
-.home{
+#home {
   background-color: darkgrey;
-  background-size: cover;
+  background-size: contain;
 }
 
 .nav-item {
@@ -31,10 +28,7 @@
   font-family: 'Give You Glory', cursive;
   text-align: center;
 }
-#navbar{
-  background-color: darkgrey;
-  padding-bottom: 18px;
-}
+
 #alexaklein{
   font-size: 150px;
 }
@@ -48,7 +42,6 @@
   justify-content: center;
   margin: auto;
   background-color: maroon;
-  background-size: cover;
 }
 
 .brandstatement{
@@ -90,11 +83,10 @@ ul {
 }
 .container {
   background-position: center;
-  background-color: lightgrey;
-  background-size: contain;
+  background-size: cover;
   color: white;
   width: 100%;
-  padding-bottom: 0px;
+  padding-bottom: 80px;
 }
 
 /*.top-photo{
@@ -133,7 +125,7 @@ ul {
   color: maroon;
   font-family: 'Give You Glory';
   padding-top: 0px;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
 }
 .contact h3{
   text-align: center;
