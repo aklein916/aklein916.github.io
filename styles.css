@@ -1,4 +1,4 @@
-#nav{
+.nav-wrapper{
   text-decoration: none;
   list-style-type: none;
   background-color: navy;
@@ -9,55 +9,67 @@
   opacity: 0.6;
   padding: 15px;
   margin-bottom: 30px;
+  display: inline-flex;
 }
 
-#nav li, #nav a{
-  display: inline-flex;
-  padding-right: 15px;
+.navbar {
+  width: 100%
+}
+.nav-item {
+  padding: 15px;
   color: white;
+
 }
 
 .alexa-box{
-  padding: 20px;
-  padding-top: 40px;
+  padding-top: 60px;
   text-transform: lowercase;
   color: navy;
   font-family: 'Give You Glory', cursive;
-  font-size: 50px;
-  text-align: left;
-  position: fixed;
+  text-align: center;
 }
-.brandstatement {
+#navbar{
+  background-color: darkgrey;
+  padding-bottom: 18px;
+}
+#alexaklein{
+  font-size: 150px;
+}
+#brandstatement {
   text-transform: none;
   text-align: center;
-  padding: 15px;
+  padding: 80px;
   font-family: sans-serif;
-  color: navy;
-  background-color: lightgrey;
+  color: white;
   width: 100%;
   display: flex;
   justify-content: center;
   margin: auto;
+  background-color: maroon;
+}
+
+.brandstatement{
+  width: 70%;
 }
 
 .about p{
   text-align: center;
-  padding: 15px;
   font-family: sans-serif;
   font-size: 18px;
   color: navy;
   background-color: lightgrey;
   margin-top: 50px;
-  margin-bottom: 50px;
   height: 550px;
-  width: 50%;
+  width: 30%;
   float: left;
   text-align: center;
 }
 
-#aboutlexi a{
+#aboutlexi {
   text-decoration: none;
   color: navy;
+  padding: 20px;
+  padding-top: 40px;
 }
 
 ul {
@@ -97,22 +109,31 @@ ul {
 }*/
 
 .smilephoto{
-  background-image: url("https://scontent.fphl1-1.fna.fbcdn.net/v/t1.0-9/734169_3086157472714_1491420326_n.jpg?oh=1891fbe9fd4f2711523adebe99acaf5b&oe=57A0A85C");
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
-  height: 550px;
-  width: 50%;
+  border-radius: 50%;
+  
   float: right;
   background-size: cover;
-  display: flex;
-  justify-content: center;
-}
+  display:inline-flex;
 
+}
+.background {
+  background-color: darkgrey;
+  background-size: cover;
+  padding-bottom: 25px;
+}
 #alexaklein{
   padding-top: 15px;
+  padding-bottom: 0;
 }
-
+#alexatitle {
+  text-align: center;
+  color: maroon;
+  font-family: 'Give You Glory';
+  padding-top: 0px;
+}
 .contact h3{
   text-align: center;
   color: navy;
