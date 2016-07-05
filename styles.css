@@ -140,18 +140,15 @@ ul {
   font-size: 20px;
   font-weight: normal;
 }
-.gallery h2{
+.projectdescription{
   text-align: center;
   padding: 8px;
-  font-size: 20px;
+  font-size: 30px;
   margin-top: 10px;
+  color: navy;
+  font-family: 'Give You Glory';
 }
 
-.gallery a {
-  margin-left: 10px;
-  font-size: 15px;
-  color: navy;
-}
 .projects img{
   margin-left: 25%;
   margin-right: 25%;
