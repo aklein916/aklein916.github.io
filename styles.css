@@ -113,7 +113,7 @@ ul {
   margin-top: 50px;
   margin-bottom: 50px;
   border-radius: 50%;
-  
+
   float: right;
   background-size: cover;
   display:inline-flex;
@@ -151,4 +151,7 @@ ul {
   margin-left: 10px;
   font-size: 15px;
   color: navy;
+}
+img .projects{
+  padding: 20px;
 }
