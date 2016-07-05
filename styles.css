@@ -152,6 +152,12 @@ ul {
   font-size: 15px;
   color: navy;
 }
-img .projects{
-  padding: 20px;
+.projects img{
+  margin-left: 25%;
+  margin-right: 25%;
+  outline-style: solid;
+  outline-color: navy;
+  outline-width: thin;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
