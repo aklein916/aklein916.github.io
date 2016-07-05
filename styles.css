@@ -16,7 +16,9 @@
 }
 .home{
   background-color: darkgrey;
+  background-size: cover;
 }
+
 .nav-item {
   padding: 15px;
   color: white;
@@ -46,6 +48,7 @@
   justify-content: center;
   margin: auto;
   background-color: maroon;
+  background-size: cover;
 }
 
 .brandstatement{
