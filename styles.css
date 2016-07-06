@@ -6,9 +6,9 @@
   font-size: 25px;
   font-family: 'neucha', sans-serif;
   padding: 40px;
+  padding-left: 10px;
   height: 40px;
   width: 100%;
-  opacity: 0.6;
   display: inline-flex;
 }
 
@@ -131,11 +131,22 @@ ul {
   padding-top: 0px;
   padding-bottom: 80px;
 }
-.contact h3{
+
+#contact h1 {
   text-align: center;
   color: teal;
-  font-size: 20px;
-  font-weight: normal;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Give You Glory", sans-serif;
+  padding-bottom: 30px;
+}
+#contact h2{
+  text-align: center;
+  color: midnightblue;
+  font-size: 30px;
+  font-family: "neucha", sans-serif;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .projectdescription{
   text-align: center;
