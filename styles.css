@@ -70,21 +70,22 @@
 
 ul {
   list-style: none;
-  display: inline-block;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
 .logos li{
   display: inline;
-  justify-content: center;
-  align-items: center;
 }
+.logos{
+  padding-left: 20%;
+  padding-right: 20%;
 
+}
 .icon {
   margin: 20px;
-  height: 80px;
-  width: 130px;
+  height: 120px;
+  width: 120px;
 }
 .container {
   background-position: center;
