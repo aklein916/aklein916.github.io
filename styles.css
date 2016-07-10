@@ -121,7 +121,9 @@ ul {
   padding-top: 0px;
   padding-bottom: 80px;
 }
-
+#contact {
+  padding-top: 100px;
+}
 #contact h1 {
   text-align: center;
   color: teal;
@@ -129,6 +131,7 @@ ul {
   font-weight: bold;
   font-family: "Give You Glory", sans-serif;
   padding-bottom: 30px;
+  padding-top: 30px;
 }
 #contact h2{
   text-align: center;
@@ -142,7 +145,10 @@ ul {
   text-align: center;
   padding-top: 100px;
   padding-bottom: 20px;
-  font-size: 30px;
+  font-size: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-weight: bold;
   color: teal;
   font-family: 'Give You Glory';
 }
