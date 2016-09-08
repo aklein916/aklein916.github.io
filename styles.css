@@ -55,7 +55,17 @@
 }
 
 
-#aboutlexi, #shopstorm {
+#aboutlexi {
+  text-decoration: none;
+  color: teal;
+  padding: 60px;
+  padding-top: 100px;
+  font-family: 'neucha', sans-serif;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+#shopstorm {
   text-decoration: none;
   color: teal;
   padding: 60px;
